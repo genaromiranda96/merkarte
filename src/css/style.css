@@ -110,7 +110,7 @@ a{
     transform: translate(30%, -50%);
     top: 50%;
     /* right: 20%; */
-    background-image: url(/public/img/iconmonstr-arrow-63.svg);
+    background-image: url('../../public/img/iconmonstr-arrow-63.svg');
     background-size: 10px 10px;
     background-repeat: no-repeat;
     background-position: center;
