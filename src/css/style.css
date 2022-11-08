@@ -139,7 +139,7 @@ a{
     top: 5px;
 }
 .header__banner{
-    background-image: url('/public/img/banner-img.png');
+    background-image: url('../../public/img/banner-img.png');
     background-repeat: no-repeat;
     background-size: cover;
     height: 350px;
@@ -147,7 +147,7 @@ a{
     background-position: center;
 }
 .body__video{
-    background-image: url('/public/img/Rectangle\ 324.png');
+    background-image: url('../../public/img/Rectangle\ 324.png');
     height: 448px;
 }
 .button--play{
@@ -188,13 +188,13 @@ a{
     margin-right: 75px;
 }
 .destacado1{
-    background-image: url('/public/img/foto-de1.png');
+    background-image: url('../../public/img/foto-de1.png');
 }
 .destacado2{
-    background-image: url('/public/img/foto-de2.png');
+    background-image: url('../../public/img/foto-de2.png');
 }
 .newsletter--bg{
-    background-image: url('/public/img/img-newsletter.png');
+    background-image: url('../../public/img/img-newsletter.png');
 }
 .newsletter__content{
     top: -220px;
