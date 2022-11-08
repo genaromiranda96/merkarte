@@ -1,0 +1,98 @@
+@media only screen and (max-width: 1023px){ 
+    .hamburger {
+        display: block;
+        cursor: pointer;
+        transition: all 0.3s ease-out;
+        margin: 0 10px;
+    }
+    #closeMenu {
+        position: absolute;
+        top: 20px;
+        cursor: pointer;
+        padding: 10px;
+        display: inline-block;
+        right: 30px;
+        z-index: 10;
+        background-color: white;
+        border-radius: 50px;
+    }
+    #closeMenu span {
+        display: block;
+        width: 25px;
+        height: 1px;
+        margin: 5px auto;
+        background-color: black;
+    }
+    .closeSpan:nth-child(1) {
+        transform: translateY(6px) rotate(45deg);
+    }
+    .closeSpan:nth-child(2) {
+        opacity: 0;
+    }
+    .closeSpan:nth-child(3) {
+        transform: translateY(-6px) rotate(-45deg);
+    }
+    .h_icons-left span {
+        margin-top: 4px;
+    }
+    .nav__container{
+        display: block!important
+    }
+    .nav__list{
+        padding: 120px 30px 0px;
+        z-index: 5;
+        position: fixed;
+        background-color: white;
+        display: inline-block; 
+        height: 100vh;
+        top: 0;
+        left: 0;
+        width: 45%;
+        transform: translateX(-102%);
+        transition: transform .30s;
+    }
+    .nav__list.active{
+        transform: translateX(0px);
+    }
+    .nav__item a{
+        display: block;
+        padding: 15px 0px;
+        font-size: 18px;
+        border-bottom: 1px solid rgb(230, 230, 230);
+    }
+    .bar {
+        display: block;
+        width: 22px;
+        height: 2px;
+        margin: 3px auto;
+        background-color: black;
+        transition: all 0.3s ease-out;
+        border-radius: 5px;
+    }
+    .preScreem {
+        opacity: 0;
+        z-index: 2;
+        visibility: hidden;
+        display: block;
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        transition: opacity .25s,visibility 0s linear .25s;
+        background-color: hsla(0,0%,7%,.36);
+        backdrop-filter: blur(1px);
+        -webkit-backdrop-filter: blur(1px);
+    }
+    .preScreem.active {
+        opacity: 1;
+        visibility: visible;
+        transition: opacity .8s ease,visibility 0s;
+    }
+}
+
+@media only screen and (max-width: 576px){ 
+    .nav__list{
+        width: 75%;
+    }
+}
