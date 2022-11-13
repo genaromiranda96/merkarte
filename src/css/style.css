@@ -1,9 +1,16 @@
-
+@font-face {
+    font-family: favorit-book;
+    src: url(../../src/typography/Favorit_Pro/FavoritPro-Book.otf) format("truetype"); 
+}
+@font-face {
+    font-family: favorit-regular;
+    src: url(../../src/typography/Favorit_Pro/FavoritPro-Regular.otf) format("truetype");
+}
 
 p, span, h1, h2, h3, h3, a, li{
     font-family: favorit-book;
 }
-.favorit-regular{
+.favorit-regular{   
     font-family: favorit-regular;
 }
 li{
